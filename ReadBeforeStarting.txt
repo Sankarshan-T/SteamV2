@@ -1,1 +1,2 @@
 Just a website like steam. Delete this when staterd working. Just a sample doc.
+A project of adding games made by me, and you add it in this SteamV2
