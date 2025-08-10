@@ -1,0 +1,131 @@
+@font-face {
+  font-family: orbitron;
+  src: url(Fonts/orbitron.ttf);
+}
+@font-face {
+  font-family: spacemono;
+  src: url(Fonts/space-mono.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: orbitron;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+.container {
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    background-color: #0e192c;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #1f3353;
+    color: #ffffff;
+}
+
+.logo-title {
+
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-title img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.title {
+    font-family: orbitron;
+    font-size: 1.5em;
+    white-space: nowrap;
+}
+
+.menu button {
+    font-family: spacemono;
+    background: none;
+    border: none;
+    color: white;
+    margin-left: 15px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    color: #A3BFFA	;
+}
+
+.container {
+    overflow: visible;
+    width: 100%;
+    height: 91.5%;
+    background-color: #0e192c;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: flex-start;
+}
+
+.back {
+    border-radius: 6px;
+    height: 30px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1em;
+    font-family: spacemono;
+    border: none;
+    background-image: linear-gradient(135deg, #00ab03, #8bbe8a96);
+    cursor: pointer;
+}
+
+.img {
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.h1 {
+    font-size: 3em;
+    color: #ffffff;
+    margin-left: 700;
+    margin-top: -450;
+}
+
+.p {
+    font-family: spacemono;
+    font-size: 1em;
+    color: #A3BFFA;
+    margin-left: 700;
+    margin-top: 10px;
+}
+
+
+.download {
+    border-radius: 6px;
+    height: 40px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 700px;
+    font-size: 1em;
+    font-family: spacemono;
+    border: none;
+    background-image: linear-gradient(135deg, #00ab03, #8bbe8a96);
+    cursor: pointer;
+}
