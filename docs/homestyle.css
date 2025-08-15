@@ -74,7 +74,7 @@ html, body {
     left: 3px;
     width: 120vh;    
     height: 83vh;
-    background-color: #4bff2bb0;
+    background-color: #0011c9ba;
     clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
     filter: blur(20px);
     opacity: 0.4;
@@ -122,17 +122,17 @@ html, body {
     position: absolute;
     text-decoration: none;
     font-size: 15px;
-    color: #ffffff;
+    color: #000000;
     border: 2px solid #1c2d48;
     border-radius: 20px;
-    background-image: linear-gradient(135deg, #00ab03, #027d00);
+    background-image: linear-gradient(135deg, #009fb1, #8a97be96);
     background-origin: border-box;
     background-clip: content-box,border-box;
     cursor: pointer;
 }
 
 .btn:hover {
-    color: #00ff40;
+    color: #1900ff;
 }
 
 .btn span {
@@ -151,7 +151,7 @@ html, body {
     left: 20px;
     width: 133vh;
     height: 83vh;
-    background-color: #4bff2bb0;
+    background-color: #2b64ffb0;
     clip-path: polygon(32% 0, 100% 0, 100% 100%, 0% 100%);
     filter: blur(20px);
     opacity: 0.4;

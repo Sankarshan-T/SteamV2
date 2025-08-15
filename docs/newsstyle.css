@@ -22,9 +22,9 @@ html, body {
     flex-direction: column;
     overflow: visible;
     width: 100%;
-    height: 91.5%;
+    height: 200%;
     background-color: #0e192c;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .header {
@@ -68,10 +68,19 @@ html, body {
 }
 
 .h1 {
-    margin-top: 50px;
-    font-size: 5em;
+    margin-top: 20px;
+    font-size: 3em;
     font-family: orbitron;
     color: #ffffff;
+    margin-left: 15px;
+}
+
+.h2 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-family: orbitron;
+    color: #ffffff;
+    margin-left: 50px;
 }
 
 .p {
@@ -79,17 +88,53 @@ html, body {
     font-size: 1em;
     font-family: spacemono;
     color: #A3BFFA;
-    text-align: center;
+    text-align: left;
+    margin-left: 50px;
+}
+.news1 {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 30px;
+    border: 2px solid rgb(0, 121, 142);
+    border-radius: 20px;
 }
 
-.home {
-    border-radius: 6px;
-    height: 50px;
-    width: 150px;
-    margin-top: 20px;
-    font-size: 2em;
-    font-family: orbitron;
-    border: none;
-    background-image: linear-gradient(135deg, #009fb1, #8a97be96);
-    cursor: pointer;
+.news2 {
+    margin-top: 60px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 30px;
+    border: 2px solid rgb(0, 121, 142);
+    border-radius: 20px;
 }
+
+.image {
+    width: 500px;
+    margin-left: 900px;
+    margin-top: -400px;
+    margin-right: 0;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 145, 99);
+}
+
+.tag {
+    margin-top: 5px;
+    font-size: 1em;
+    font-family: orbitron;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.link {
+    margin-left: 50px;
+    font-family: orbitron;
+    text-decoration: dashed;
+    color: aqua;
+}
+
+.link:hover {
+    color: rgb(0, 193, 61);
+}
+
